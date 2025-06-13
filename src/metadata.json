@@ -1,0 +1,6 @@
+
+{
+  "name": "ESP32 Weather Station Monitor",
+  "description": "A web application that simulates and visualizes data from an ESP32-based weather station, including wind speed, direction, temperature, humidity, and barometric pressure.",
+  "requestFramePermissions": []
+}
