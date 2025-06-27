@@ -34,3 +34,9 @@ export const CompassIcon: React.FC<{ className?: string }> = ({ className }) => 
   <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m0 13.5V21m0-15.75S11.25 6 9 6m3 0S12.75 6 15 6m-3 12S11.25 18 9 18m3 0S12.75 18 15 18M3 12h2.25m13.5 0H21m-15.75 0S6 11.25 6 9m0 3S6 12.75 6 15m12-3S18 11.25 18 9m0 3S18 12.75 18 15m-4.328-5.672L8.672 15.328m6.656-6.656l-6.656 6.656" />
 </svg>
 );
+
+export const RainfallIcon: React.FC<{ className?: string }> = ({ className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className || "w-6 h-6"}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-12.75 3h15.5A2.25 2.25 0 0 0 21.75 12a2.25 2.25 0 0 0-1.95-2.224A4.5 4.5 0 0 0 12 2.25a4.5 4.5 0 0 0-7.524 4.976A2.25 2.25 0 0 0 4.5 12a2.25 2.25 0 0 0 2.25 2.25H9.75" />
+ </svg>
+);
